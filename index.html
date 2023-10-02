@@ -65,7 +65,19 @@
     /**
      * Headings
      */
-    h1,
+    h1 {
+      line-height: 1;
+      text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
+      margin-top: 0;
+      margin-bottom: 2rem;
+      font-weight: 300;
+      font-weight: bold;
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
     h2 {
       line-height: 1;
       text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
