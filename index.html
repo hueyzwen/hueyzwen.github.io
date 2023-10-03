@@ -32,10 +32,10 @@
       height: 100%;
       width: 100%;
     }
-    .left, .right {
+    .sidenav, .main {
       width: 100%
     }
-    .left {
+    .sidenav {
       position: fixed;
       height: 100%; 
       width: 27%;
@@ -43,7 +43,7 @@
       overflow-x: hidden;
       padding: 1rem 0rem;
     } 
-    .left a {
+    .sidenav a {
       width: 27%;
       padding: 0.5rem 0.5rem 0.5rem 1rem;
       text-decoration: none;
@@ -51,13 +51,14 @@
       color: #2196F3;
       display: block;
     }
-    .left a:hover {
+    .sidenav a:hover {
       color: #064579;
     }
-    .right {
+    .main {
       position: flex;
       height: 100%; 
       width: 70%; /* Same width as the sidebar + left position in px */
+      margin-left: 30%;
       font-size: 1.5rem; /* Increased text to enable scrolling */
       line-height: 150%;
       padding: 0rem 0.5rem;
@@ -144,7 +145,7 @@
 
   <div class="container">
 
-  <div class="left">
+  <div class="sidenav">
 
     <p align="middle"><b>Menu</b></p>
     
@@ -165,7 +166,7 @@
   
   </div>
 
-  <div class="right">
+  <div class="main">
             
             <h1>Zhaohui Wen</h1><br>
     
