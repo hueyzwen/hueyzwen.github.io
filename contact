@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
   <head>
@@ -141,11 +140,11 @@
 
     <center><img src="sifi.jpg" alt="Zhaohui Wen’s sifi taken in 2023" width="40%"></center>
     <center><a href="https://zhaohuiwen.top"><b>Home</b></a></center>
-    <center><a href="cv.html"><b>CV</b></a></center>
-    <center><a href="topics.html"><b>Topics</b></a></center>
-    <center><a href="works.html"><b>Works</b></a></center>
-    <center><a href="courses.html"><b>Courses</b></a></center>
-    <center><a href="contact.html"><b>Contact</b></a></center>
+    <center><a href="cv"><b>CV</b></a></center>
+    <center><a href="topics"><b>Topics</b></a></center>
+    <center><a href="works"><b>Works</b></a></center>
+    <center><a href="courses"><b>Courses</b></a></center>
+    <center><a href="contact"><b>Contact</b></a></center>
     <center><a href="https://philpeople.org/profiles/zhaohui-wen"><img src="philpeople.png" width="10%"></a><small>Philpeople</small></center>
     <center><a href="https://scholar.google.com/citations?user=iM299DkAAAAJ&hl=en"><img src="googlescholar.png" width="10%"></a><small>Googlescholar</small></center>
     <center><a href="https://github.com/Zhaohui-Wen/zhaohuiwen.github.io"><img src="github.png" width="10%"></a><small>Github</small></center>
