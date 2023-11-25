@@ -57,6 +57,11 @@
       line-height: 125%;
       padding: 0.5rem 0rem;
     }
+    .foldable-text {
+     max-height: 20%;
+     overflow: hidden;
+     transition: max-height 0.5s ease-in-out;
+    }
     
     /**
      * Paragraphs
@@ -111,9 +116,13 @@
             <p><b>I. Papers Out of My Control</b> (.pdf attached)</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>In Print</b></p>
             <p>1) _ _ _ _ _ _</p>
+            
+            <div class="foldable-text">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Early Writings</b></p>
             <p>1) <a href="web.pdf">Weak Emergence-Based Non-Reductive Physicalism.</a> 2023, senior thesis, Wuhan University.<br>
             2) <a href="efp.pdf">Emptying Fine’s Paradox with Grounding Pluralism.</a> 2021, accepted by “Luojia Undergraduate Philosophy Conference”.</p>
+            </div>
+            <button id="fold-btn">See More</button>
           
             <p><b>II. In Progress</b> (email me for copies, comments wanted)</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Under Review</b></p>
@@ -125,11 +134,13 @@
             <p>3) Why panpsychism makes social groups esoteric.<br>
             <blockquote><small>I argue the application of panpsychism to collective agency is problematic by virtue of implying that social groups should esoterically contain parts (like walls of the White House) that are apparently no part of them.</small></blockquote></p>
            
+            <div class="foldable-text">   
             <p><b>III. No Longer in Progress</b> (.pdf attached)</p>
             <p>1) <a href="gcf.pdf">Groups come first? An exploration</a>. <small>reviewers’ comments from <i>Syntheses</i> and <i>Inquiry: An Interdisciplinary Journal of Philosophy</i>; “revise and resubmit” from <i>Canadian Journal of Philosophy</i> and <i>Applied Ontology</i></small><br>
             2) <a href="myv.pdf">Maybe your virtue blocks your choice</a>. <small>reviewers’ comments from <i>Journal of Value Inquiry</i></small><br>
             3) <a href="wso.pdf">Whose System of Value?</a>. <small>reviewers’ comments from <i>Asian Journal of Philosophy</i></small><br>
             4) <a href="fas.pdf">Freedom and Simulation Hypothesis</a>. <small>reviewers’ comments from <i>Journal of American Philosophical Association</i> and <i>European Journal of Philosophy</i></small></p>
+            <button id="fold-btn">See More</button>
               
             <p><b>Part Two: Non-philosophical Works</b></p>
             <p><b>I. Collections of Poems</b> (in Chinese, .pdf attached)</p>
