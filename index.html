@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+  <head>
+
+    <title>Zhaohui Wen - Huey - Philosopher</title>
+
+    <meta http-equiv='content-language' content='en-gb'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="description" content="I am Zhaohui Wen, aka Huey Wen, and I am a philosopher specializing in metaphysics. This is my website. More details available inside.">
+    <meta name="keywords" content="Zhaohui Wen,Huey Wen,Philosophy,Metaphysics">
+    <meta name="author" content="Zhaohui Wen - Huey">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+
+    <style>
+
+    html {
+      background: url(images/background.png) center center no-repeat fixed;
+      background-size: cover;
+    }
+
+    body {
+      font-family: Philosopher, san-serif;
+      font-size: 1rem;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      text-align: center;
+      background-color: rgba(255,255,255,0.9);
+      border-radius: 10px;
+    }
+
+    /**
+     * Paragraphs
+     */
+     .wrapper {
+       width: 100%;
+       height: 100%;
+     }
+     .line__1,
+     .line__2,
+     .line__3{
+       white-space: nowrap;
+       overflow: hidden;
+       margin: 0.5rem auto;
+       font-family: Nova Mono, monospace;
+       font-size: 1rem;
+       font-weight: bold;
+       text-align: center;
+     }
+     .line__1 {
+       border-right: 2px solid rgba(255, 255, 255, 0.0);
+       animation: animated-text__1 3s steps(30, end) 1s 1 normal both,
+       animated-cursor_1 1s steps(30, end) infinite;
+     }
+     .line__2 {
+       border-right: 2px solid rgba(255, 255, 255, 0.0);
+       animation: animated-text__2 3s steps(30, end) 1s 1 normal both,
+       animated-cursor_1 1s steps(30, end) infinite;
+       -webkit-animation-delay: 4s;
+       animation-delay: 4s;
+     }
+     .line__3 {
+       border-right: 2px solid rgba(255, 165, 0, 0.9);
+       animation: animated-text__3 3s steps(30, end) 1s 1 normal both,
+       animated-cursor_2 1s steps(30, end) infinite;
+       -webkit-animation-delay: 8s;
+       animation-delay: 8s;
+     }
+     @keyframes animated-cursor_1 {
+       border-right-color: rgba(255, 255, 255, 0.9);
+     }
+     @keyframes animated-cursor_2 {
+       from {border-right-color: rgba(255, 165, 0, 0.9);}
+       to {border-right-color: rgba(255, 255, 255, 0.9);}
+     }
+     @keyframes animated-text__1 {
+       from {width: 0;}
+       to {width: 18rem;}
+     }
+     @keyframes animated-text__2 {
+       from {width: 0;}
+       to {width: 18rem;}
+     }
+     @keyframes animated-text__3 {
+       from {width: 0;}
+       to {width: 18rem;}
+     }
+
+    /**
+     * Links
+     */
+    a {
+      font-weight: normal;
+      text-decoration: none;
+      color: #2196F3;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /**
+     * Images
+     */
+    img:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+       10% { transform: translate(-1px, -2px) rotate(-1deg); }
+       20% { transform: translate(-3px, 0px) rotate(1deg); }
+       30% { transform: translate(3px, 2px) rotate(0deg); }
+       40% { transform: translate(1px, -1px) rotate(1deg); }
+       50% { transform: translate(-1px, 2px) rotate(-1deg); }
+       60% { transform: translate(-3px, 1px) rotate(0deg); }
+       70% { transform: translate(3px, 1px) rotate(-1deg); }
+       80% { transform: translate(-1px, -1px) rotate(1deg); }
+       90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    /**
+     * Tables
+     */
+    table {
+      width: 100%;
+    }
+    td {
+      width: 20%;
+      text-align: center;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+            <table><tr>
+            <td>Menu</td>
+            <td><a href="https://hueyzwen.github.io"><u>Home</u></a></td>
+            <td><a href="vitae">Vitae</a></td>
+            <td><a href="works">Works</a></td>
+            <td><a href="contact">Contact</a></td>
+            </tr></table>
+
+            <p><img src="images/head.png" alt="Web Logo" width="92%"></p>
+
+            <table><tr>
+            <td><a href="https://philpeople.org/profiles/zhaohui-wen"><img src="images/philpeople.png" width="10rem"> PhilPeople</a></td>
+            <td><a href="https://scholar.google.com/citations?user=iM299DkAAAAJ&hl=en"><img src="images/googlescholar.png" width="12rem"> Google Scholar</a></td>
+            <td><a href="https://orcid.org/0000-0001-6613-2004"><img src="images/orcid.png" width="12rem"> ORCID</a></td>
+            <td><a href="https://www.webofscience.com/wos/author/record/JTV-7150-2023"><img src="images/webofscience.png" width="12rem"> Web of Science</a></b></td>
+            </tr></table>
+
+            <p><img src="images/sifi.png" alt="Sifi" width="6%" style="border-radius: 5px"></p>
+
+            <div class="wrapper">
+              <p class="line__1">Hi there! Welcome!</p>
+              <p class="line__2">I am Huey, a philosopher.</p>
+              <p class="line__3">Follow the menu for more info...</p>
+            </div>
+
+            <p><small>Background: Bertrand Russell’s letter to Ludwik Silberstein, 1918 © Kotte Autographs</small></p>
+
+            <table><tr>
+            <td>© Huey Wen</td>
+            <td></td>
+            <td><a href="https://github.com/hueyzwen/hueyzwen.github.io"><img src="images/github.png" width="16rem"></a></td>
+            <td></td>
+            <td>23-Mar-2024</td>
+            </tr></table>
+
+  </body>
+
+</html>

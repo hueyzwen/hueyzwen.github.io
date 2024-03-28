@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+  <head>
+
+    <title>Works: Zhaohui Wen - Huey</title>
+
+    <meta http-equiv='content-language' content='en-gb'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="description" content="This is a subpage of the philosopher Zhaohui Wen (aka Huey Wen)’s website. You can find his written works inside.">
+    <meta name="keywords" content="Zhaohui Wen,Huey Wen,Philosophy,Metaphysics">
+    <meta name="author" content="Zhaohui Wen - Huey">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+
+    body {
+      font-family: Philosopher, sans-serif;
+    }
+    .sidenav, .main {
+      width: 100%
+    }
+    .sidenav {
+      position: fixed;
+      width: 18%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      z-index: 1;
+      font-size: 1rem;
+      line-height: 200%;
+      padding: 0rem 0rem;
+      overflow-x: hidden;
+    }
+    .sidenav a {
+      text-decoration: none;
+      color: #2196F3;
+      display: block;
+    }
+    .sidenav a:hover {
+      color: #064579;
+    }
+    .main {
+      width: 75%;
+      margin-left: 20%;
+      margin-right: 0%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      font-size: 1rem;
+      line-height: 125%;
+      padding: 0.5rem 0rem;
+    }
+
+    /**
+     * Paragraphs
+     */
+    p {
+      margin: 0 auto 1.5em auto;
+    }
+
+    /**
+     * Links
+     */
+    a {
+      font-weight: normal;
+      text-decoration: none;
+      color: #2196F3;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /**
+     * Button
+     */
+    .collapsible {
+      background-color: White;
+      color: Black;
+      cursor: pointer;
+      padding: 0rem;
+      margin-bottom: 1.5rem;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-family: Philosopher, sans-serif;
+      font-size: 1rem;
+    }
+    .active, .collapsible:hover {
+    }
+    .content {
+      padding: 0 0.5REM;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: White;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+  <div class="sidenav">
+
+    <center><a href="https://hueyzwen.github.io">Home</a></center>
+    <center><a href="vitae">Vitae</a></center>
+    <center><a href="works"><u>Works</u></a></center>
+    <center><a href="contact">Contact</a></center>
+
+  </div>
+
+  <div class="main">
+
+            <p><b>Part One: Philosophical Works</b></p>
+
+            <p><b>I. In Print</b> (PDF attached)</p>
+
+            <p><b>II. Under Review</b></p>
+
+            <button class="collapsible">1) <a>Wilsonian (Weak) Emergentism Debugged</a>.</button>
+            <div class="content">
+            <p>The notion of (weak) metaphysical emergence proposed by Jessica Wilson hopefully enriches our inter-level metaphysical toolkit. However, there are criticisms about Wilson’s allegedly overstated theoretical neutrality when applying her theory to the formulation of non-reductive physicalism. I start this project by arguing how a Wilsonian conception of (weak) emergence neutral with respect to the nature of properties could be difficult to defend. Later, I propose the dual-aspect model of properties—given this model, an emergent-relevant property has both a quiddity and a set of causal powers—to help friends of Wilsonian emergentism qualitatively differentiate weak emergence from strong emergence and defend the non-reduction of emergent-level properties. In addition, based on the dual aspect model of properties, a bonus—i.e., an explanation of why many emergent-level laws are <i>ceteris paribus</i> laws—can also be given. To summarize, I believe my proposal debugs Wilsonian (weak) emergentism.</p>
+            </div>
+
+            <p><b>III. In Progress</b> (email me for copies)</p>
+            <p>1) Fitting Moral Realism in Supervaluationism: Towards a Shifty Semantic Account of Moral Vagueness.<br>
+            2) Simulation and Manipulation.<br>
+            3) Emergent Realities: Mind, Virtue, Agency and Intelligence.</p>
+
+            <p><b>Part Two: Non-philosophical Works</b></p>
+
+            <p><b>I. Collections of Poems</b> (in Chinese, PDF attached)</p>
+            <p>In Classic Style: <a href="files/VERSE01.PDF">Waters, Rocks, My Eternal Friends</a> (2021), <a href="files/VERSE02.PDF">Mountain Fragments</a> (2019)<br>
+            In Contemporary Style: <a href="files/VERSE03.PDF">Sparrows, Dragonflies and Grass</a> (2021), <a href="files/VERSE04.PDF">Prisoner of Feathers</a> (2018), <a href="files/VERSE05.PDF">Cold Rain in Quebec</a> (2016)<br>
+            Mixed, or Maybe My Finale: <a href="files/VERSE06.PDF">Cherry Blossom Girls</a> (2023)</p>
+
+            <p><b>II. Novels</b> (in progress)</p>
+            <p>I am writing a murder mystery (a decent “British murder”, I hope), in which a philosophy graduate student cracked his professor’s murder. The hero’s name is Ewen Huy, an anagram of my name. The story is set in New York.</p>
+
+  </div>
+
+  <script>
+
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+
+  </script>
+
+  </body>
+
+</html>

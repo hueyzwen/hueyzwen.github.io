@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+  <head>
+
+    <title>Vitae: Zhaohui Wen - Huey</title>
+
+    <meta http-equiv='content-language' content='en-gb'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="description" content="This is a subpage of the philosopher Zhaohui Wen (aka Huey Wen)’s website. You can find his CV inside.">
+    <meta name="keywords" content="Zhaohui Wen,Huey Wen,Philosophy,Metaphysics">
+    <meta name="author" content="Zhaohui Wen - Huey">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+
+    body {
+      font-family: Philosopher, san-serif;
+    }
+    .sidenav, .main {
+      width: 100%
+    }
+    .sidenav {
+      position: fixed;
+      width: 18%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      z-index: 1;
+      font-size: 1rem;
+      line-height: 200%;
+      padding: 0rem 0rem;
+      overflow-x: hidden;
+    }
+    .sidenav a {
+      text-decoration: none;
+      color: #2196F3;
+      display: block;
+    }
+    .sidenav a:hover {
+      color: #064579;
+    }
+    .main {
+      width: 75%;
+      margin-left: 20%;
+      margin-right: 0%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      font-size: 1rem;
+      line-height: 125%;
+      padding: 0.5rem 0rem;
+    }
+
+    /**
+     * Paragraphs
+     */
+    p {
+      margin: 0 auto 1.5em auto;
+    }
+
+    /**
+     * Links
+     */
+    a {
+      font-weight: normal;
+      text-decoration: none;
+      color: #2196F3;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /**
+     * Slideshow
+     */
+    .slideshow-container {
+      position: relative;
+      width: 75%;
+      margin-bottom: 1rem;
+      padding-top: 1.5rem;
+      border: 2px solid #dedede;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+     }
+    .mySlides {
+      display: none;
+      padding: 0rem;
+      text-align: center;
+     }
+    .prev, .next {
+      cursor: pointer;
+      width: auto;
+      color: rgba(0,0,0,0.8);
+      user-select: none;
+     }
+    .prev:hover, .next:hover {
+      color: #888;
+     }
+    .dot-container {
+      text-align: center;
+      padding: 1.5rem;
+     }
+    .dot {
+      cursor: pointer;
+      height: 10px;
+      width: 10px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+     }
+    .active, .dot:hover {
+      background-color: #717171;
+     }
+     button {
+      border: 1px solid #000000;
+      border-radius: 3px;
+     }
+
+    </style>
+
+  </head>
+
+  <body>
+
+  <div class="sidenav">
+
+    <center><a href="https://hueyzwen.github.io">Home</a></center>
+    <center><a href="vitae"><u>Vitae</u></a></center>
+    <center><a href="works">Works</a></center>
+    <center><a href="contact">Contact</a></center>
+
+  </div>
+
+  <div class="main">
+
+      <p><button><a href="files/VITAE.PDF"><b>Download CV</a></b></button></p>
+
+      <p><b>Upcoming Events</b></p>
+
+      <div class="slideshow-container">
+
+         <div class="mySlides">
+         <p><b>*** *** ***</b></p>
+         <p>I will attend the 4th NYU Bioethics Workshop.</p>
+         <p>Shelly Kagan (Yale) will be the key speaker.</p>
+         <p>***</p>
+         <p><i>posted on 06/02 2024</i></p>
+         </div>
+
+         <div class="mySlides">
+         <p><b>*** *** ***</b></p>
+         <p>I will complete my MA in Summer 2024.</p>
+         <p>And I will start my PhD this Fall.</p>
+         <p>***</p>
+         <p><i>posted on 23/03 2024</i></p>
+         </div>
+
+      </div>
+
+      <blockquote><button class="next" onclick="plusSlides(+1)"><small>NEXT EVENT</small></button></blockquote>
+
+      <p>Files below are for collegues and students’ use. Please don’t cite without contatcing me first. Thank you!</p>
+
+      <p><b>Courses</b></p>
+      <p>Course name, term, institution, level. [Syllabus], [Handout 1], [Slides 1]</p>
+
+      <p><b>Presentations</b></p>
+      <p>Title, date, institution. [Handout]</p>
+
+  </div>
+
+  <script>
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+
+  </script>
+
+  </body>
+
+</html>
