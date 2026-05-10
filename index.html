@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<title>Zhaohui Huey Wen - Philosopher</title>
+<meta http-equiv='content-language' content='en-gb'>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="I am Zhaohui Wen, aka Huey Wen, and I am a philosopher specializing in metaphysics. This is my website. More details available inside.">
+<meta name="keywords" content="Zhaohui Wen,Huey Wen,Philosophy,Metaphysics">
+<meta name="author" content="Z. Huey Wen">
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<style type="text/css">
+<!--
+::selection{background:aquamarine;color:white;}
+::-webkit-selection{background:aquamarine;color:white;}
+::-moz-selection{background:aquamarine;color:white;}
+body{background:oldlace;color:mediumslateblue;margin-left:7.5%;margin-right:7.5%;margin-top:2.5%;margin-bottom:2.5%;}
+*{cursor:default;font-family:'Cormorant Garamond',serif;line-height:2.5rem;font-size:1.25rem;padding:0;outline:0;margin:0;}
+button{background:mistyrose;height:6.4rem;width:6.4rem;border:0px;border-radius:50%;box-shadow:10px 10px 5px grey;}
+#t{position:absolute;width:90%;visibility:hidden;white-space:pre-wrap;}
+a{color:blue;text-decoration:none;}
+.g{color:#0f0;}
+.p{color:pink;}
+ins,del{text-decoration:none;}
+s{display:none;}
+kbd{font-family:inherit;}
+.t-caret{font-size:inherit;color:magenta;}
+@media(max-width:90%){#t{width:90%;}}
+-->
+</style>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script> <!-- 3.3.1 -->
+<script src="https://cdn.jsdelivr.net/gh/mntn-dev/t.js/t.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(function(){
+ $('#t').t({
+  delay:0,                   // start delay in seconds [default:0]
+  speed:25,                  // typing speed (ms) [default:50]
+  speed_vary:false,          // 'human like' speed variation [default:false]
+  beep:false,                // beep while typing (Web Audio API) [default:false]
+  mistype:1,                 // mistype rate: 1:N per char [default:false]
+  locale:'en',               // keyboard layout (to fit mistype); supported: 'en' (english) or 'de' (german) [default:'en']
+  caret:'\u2589',            // caret content; can be html too [default:true (\u258e)]
+  blink:true,                // blink-interval in ms; if TRUE, speed*3  [default:true]
+  blink_perm:false,          // permanent blinking? if FALSE, caret blinks only on delay/pause/finish [default:false]
+  repeat:0,                  // repeat typing: if TRUE, infinite or N times [default:0]
+  tag:'span',                // wrapper tag (.t-container, .t-caret) [default:'span']
+  pause_on_click:false,      // pauses/continues typing on click/tap (elm) [default:false]
+  pause_on_tab_switch:false, // pauses typing if window is inactive (Page Visibility API) [default:false]
+  // init callback (ready-to-type)
+  init:function(elm){},
+  // typing callback
+  typing:function(elm,chr_or_elm,left,total){},
+  // finished callback
+  fin:function(elm){}
+ });
+});
+//]]>
+</script>
+</head>
+<body>
+<div id="t"><button><a href="cv.pdf">Vitae</a></button><button><a href="works">Works</a></button>
+
+<img src="images/huey.png" alt="Sifi" style="width:10.4rem;float:left;margin:1rem;border-radius:50%;filter:drop-shadow(-10px -10px 5px grey)"><strong>Hello! Welcome to my website!</strong>
+I’m <del>Zhaohui<ins>1</ins></del>Huey, a <kbd>philosopher</kbd> working in the <strong>Anglo-American</strong> tradition.
+My primary interest is <strong><del>secretly everything<ins>1</ins></del>contemporary metaphysics</strong>, but I from time to time find myself indulged with mind, language, science and other subjects (laugh!).
+Feel free to drop me an email at <strong>huey.z.wen@gmail.com</strong>.
+
+</div>
+</body>
+</html>
